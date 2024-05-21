@@ -1,6 +1,5 @@
 <template>
   <div>
-    <section style="height: 100px;"></section>
     <div class="circle-wrapper">
       <div class="circle-container">
         <div class="circle">
@@ -34,13 +33,13 @@ export default {
 
 /* Alternate positioning for left and right */
 .circle-wrapper:nth-child(odd) {
-    margin-left: 0;
-    margin-right: auto;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .circle-wrapper:nth-child(even) {
-    margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: 0;
 }
 
 .circle-container {
