@@ -3,19 +3,38 @@
     <section style="height: 100px;"></section>
     <CircleContent>
       <template #content1>
-        <div>
+        <div class="text_bubble">
           <h2>What is Nic?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem eos, aut voluptate eveniet
-            molestias ipsa asperiores fuga officia dolor nesciunt. Dolor illo quidem, impedit doloremque sed nostrum?
-            Cumque, nesciunt.
+          <p>
+            The Nordic iGEM Conference is an annual international synthetic biology conference held in different
+            Nordic cities each year. It aims to build networks among professionals in the synthetic biology field.
+            Participants can meet colleagues, hear inspiring career stories, and learn about synthetic biology in
+            practice. NiC 2024 is an opportunity to boost your career and share insights on how synthetic biology can
+            change the world. The event combines intellectual growth with fun, new friendships, and the experience of
+            endless summer nights.
           </p>
         </div>
       </template>
       <template #content2>
-        <div>
-          <h2>When and where?</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, minus sit velit vero fugiat quibusdam
-            consequuntur natus amet maxime animi nobis delectus eos? Suscipit quidem, amet aperiam inventore quo id?
+        <div class="text_bubble">
+          <h2>Why join NiC?</h2>
+          <p>
+            Joining NiC 2024 offers a unique chance to elevate your knowledge, expand your professional network, and
+            ignite your passion for impactful discovery in synthetic biology. It's a platform to meet like-minded
+            individuals, gain intellectual capital, and have fun while making new friends. The conference is not just
+            about learning but also about enjoying the vibrant community and inspiring environment. Secure your place in
+            this Nordic synbio hub and be part of the movement towards a better future.
+          </p>
+        </div>
+      </template>
+      <template #content3>
+        <div class="text_bubble">
+          <h2>When and Where is NiC 2024 Held?</h2>
+          <p>
+            NiC 2024 will be held in Turku, Finland, from Friday 26.7. till 28.7. The event will feature lectures,
+            workshops, networking opportunities, and a gala dinner. Participants will also practice their presentation
+            skills and receive valuable feedback on their projects. Enjoy the endless summer nights in Finland’s oldest
+            city while engaging in a collaborative and innovative environment.
           </p>
         </div>
       </template>
@@ -33,3 +52,10 @@ export default {
   }
 };
 </script>
+
+
+<style>
+.text_bubble {
+  width: 80%
+}
+</style>
