@@ -39,48 +39,6 @@ h1 {
     text-align: center;
 }
 
-.topnav {
-    background-color: var(--green);
-    overflow: hidden;
-    height: 110px;
-}
-
-.topnav a {
-    float: right;
-    color: var(--text-inverted);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.topnav a:hover {
-    background-color: var(--lightGreen);
-    color: var(--text);
-}
-
-.topnav a.active {
-    background-color: var(--lightGreen);
-    color: var(--text);
-}
-
-.topnavLinks {
-    float: left;
-    width: 50%;
-}
-
-.topnavLogo {
-    float: left;
-    width: 50%;
-}
-
-#Logo {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-    margin-left: 30px;
-}
-
 footer {
     background-color: var(--green);
     min-height: 100px;
