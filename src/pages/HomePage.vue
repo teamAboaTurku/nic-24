@@ -1,6 +1,5 @@
 <template>
   <div class="page">
-    <section style="height: 100px;"></section>
     <CircleContent>
       <template #content1>
         <div class="text_bubble">
