@@ -1,13 +1,13 @@
 <template>
-  <div>
     <TopNav />
     <FlagLine />
     <PageBanner :bannerClass="bannerClass" />
     <FlagLine />
-    <router-view />
+    <div class="page">
+      <router-view />
+    </div>
     <FlagLine />
     <BottomFooter />
-  </div>
 </template>
 
 <script>
