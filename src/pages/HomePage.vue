@@ -47,11 +47,11 @@
             <br><br>
             <b>innovation</b> – inspiring teams to explore novel approaches, technologies, and applications within the
             field of
-            synthetic biology, while promoting responsible and ethical practices
+            synthetic biology, while promoting responsible and ethical practices.
             <br><br>
             <b>community</b> – bringing together people from Nordic and Baltic countries, united by synthetic biology
             and the
-            aim to make our world a better place together
+            aim to make our world a better place together.
           </p>
         </div>
       </template>
@@ -85,7 +85,7 @@ export default {
   text-align-last: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1023px) {
   .text_bubble {
     width: 90%;
   }
@@ -97,6 +97,7 @@ export default {
   .text_bubble p {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 16px
   }
 }
 </style>

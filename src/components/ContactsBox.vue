@@ -4,6 +4,7 @@
         <p>team@aboaturku.fi</p>
         <h3>or via social media:</h3>
         <SomeBox />
+        <h3>Details of the main contact person for the event will be posted here closer to the event date.</h3>
     </div>
 </template>
 
