@@ -28,12 +28,30 @@
       </template>
       <template #content3>
         <div class="text_bubble">
-          <h2>When and Where is NiC 2024 Held?</h2>
+          <h2>When and Where is<br>NiC 2024 Held?</h2>
           <p>
             NiC 2024 will be held in Turku, Finland, from Friday 26.7. till 28.7. The event will feature lectures,
             workshops, networking opportunities, and a gala dinner. Participants will also practice their presentation
             skills and receive valuable feedback on their projects. Enjoy the endless summer nights in Finland’s oldest
             city while engaging in a collaborative and innovative environment.
+          </p>
+        </div>
+      </template>
+      <template #content4>
+        <div class="text_bubble">
+          <h2>NiC 2024 values:</h2>
+          <p>
+            <b>collaboration</b> – encouraging the sharing of ideas, resources, and expertise to collectively advance
+            synthetic
+            biology research and innovation in the Nordic and Baltic countries.
+            <br><br>
+            <b>innovation</b> – inspiring teams to explore novel approaches, technologies, and applications within the
+            field of
+            synthetic biology, while promoting responsible and ethical practices
+            <br><br>
+            <b>community</b> – bringing together people from Nordic and Baltic countries, united by synthetic biology
+            and the
+            aim to make our world a better place together
           </p>
         </div>
       </template>
@@ -55,6 +73,30 @@ export default {
 
 <style>
 .text_bubble {
-  width: 80%
+  width: 80%;
+}
+
+.text_bubble h2 {
+  margin-top: 0px;
+}
+
+.text_bubble p {
+  text-align: justify;
+  text-align-last: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .text_bubble {
+    width: 90%;
+  }
+
+  .text_bubble h2 {
+    margin-bottom: 0px;
+  }
+
+  .text_bubble p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 </style>

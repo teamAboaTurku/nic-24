@@ -21,6 +21,13 @@
         </div>
       </div>
     </div>
+    <div class="circle-wrapper">
+      <div class="circle-container">
+        <div class="circle">
+          <slot name="content4"></slot>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -33,9 +40,11 @@ export default {
 <style>
 .circle-wrapper {
   width: 50%;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 600px;
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Alternate positioning for left and right */
@@ -72,9 +81,6 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 50%;
-  border: 5px solid transparent;
-  /* Control the thickness of border */
   background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ccircle%20cx='50'%20cy='50'%20r='45'%20fill='none'%20stroke='white'%20stroke-width='1.5'%20stroke-dasharray='2%204'%20stroke-linecap='round'%20opacity='0.5'/%3E%3C/svg%3E") no-repeat center center;
   background-size: cover;
   overflow: hidden;
@@ -90,7 +96,11 @@ export default {
 
 @media only screen and (max-width: 500px) {
   .circle-wrapper, .circle-wrapper:nth-child(even), .circle-wrapper:nth-child(odd) {
-    margin: auto;
+    width: 100%;;
+  }
+  .circle-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
