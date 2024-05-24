@@ -25,23 +25,23 @@ export default {
 .sponsor-container {
     padding: 10px;
     margin: auto;
-    height: 100px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
 
 .sponsor-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
     width: 100%;
+    justify-items: center;
+    align-items: center;
 }
 
 .sponsor {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,5 +50,11 @@ export default {
 .sponsor img {
     max-height: 50px;
     max-width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+    .sponsor-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 </style>
