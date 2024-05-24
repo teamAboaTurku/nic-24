@@ -89,6 +89,7 @@ table {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 50px;
+    min-width: 300px;
     max-width: 600px;
 }
 
@@ -102,5 +103,18 @@ th {
 #time {
     width: 10%;
     text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    table, th, td {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 </style>
