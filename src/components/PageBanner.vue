@@ -42,4 +42,9 @@ export default {
     background-image: url('@/assets/photos/timetable.png');
     background-color: var(--lightBlue);
 }
+
+.committee-banner {
+    background-image: url('@/assets/photos/committee.png');
+    background-color: var(--lightBlue);
+}
 </style>
