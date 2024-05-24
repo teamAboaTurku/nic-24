@@ -141,7 +141,11 @@ export default {
   margin-left: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
+  .topnavLinks {
+    gap: 0px;
+  }
+
   .navbar-toggler {
     display: none;
   }
