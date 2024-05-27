@@ -49,13 +49,13 @@ export default {
 
 /* Alternate positioning for left and right */
 .circle-wrapper:nth-child(odd) {
-  margin-right: 0;
+  margin-right: 10px;
   margin-left: auto;
 }
 
 .circle-wrapper:nth-child(even) {
   margin-right: auto;
-  margin-left: 0;
+  margin-left: 10px;
 }
 
 .circle-container {
@@ -94,11 +94,22 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 500px) {
-  .circle-wrapper, .circle-wrapper:nth-child(even), .circle-wrapper:nth-child(odd) {
-    width: 100%;;
+@media only screen and (max-width: 767px) {
+
+  .circle-wrapper,
+  .circle-wrapper:nth-child(even),
+  .circle-wrapper:nth-child(odd) {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-  .circle-wrapper {
+}
+
+@media only screen and (min-width: 768px) {
+  .circle-wrapper,
+  .circle-wrapper:nth-child(even),
+  .circle-wrapper:nth-child(odd) {
     margin-top: 50px;
     margin-bottom: 50px;
   }

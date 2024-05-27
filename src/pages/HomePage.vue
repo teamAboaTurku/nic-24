@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div>
     <CircleContent>
       <template #content1>
         <div class="text_bubble">
@@ -73,31 +73,40 @@ export default {
 
 <style>
 .text_bubble {
-  width: 80%;
+  width: 100%;
 }
 
-.text_bubble h2 {
+.text_bubble h2, .text_bubble p {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text_bubble p {
   text-align: justify;
   text-align-last: center;
+  font-size: 16px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 426px) {
   .text_bubble {
-    width: 95%;
+    width: 90%;
   }
 
   .text_bubble h2 {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
   }
 
   .text_bubble p {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 16px
+    font-size: 18px
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .text_bubble p {
+    font-size: 20px;
+  }
+}
+
 </style>
