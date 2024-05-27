@@ -6,7 +6,7 @@ import CommitteePage from '../pages/CommitteePage.vue'
 import ContactsPage from '../pages/ContactsPage.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/nic_24/'),
   routes: [
     { path: '/', component: HomePage, name: 'HomePage', meta: { bannerClass: 'home-banner' }},
     { path: '/timetable', component: TimetablePage, name: 'TimetablePage', meta: { bannerClass: 'timetable-banner' }},
