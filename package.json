@@ -2,6 +2,7 @@
   "name": "nic_24",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Metsittynyt.github.io/nic_24",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
