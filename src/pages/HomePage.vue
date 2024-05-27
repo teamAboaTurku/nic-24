@@ -87,7 +87,7 @@ export default {
 
 @media only screen and (max-width: 1023px) {
   .text_bubble {
-    width: 90%;
+    width: 95%;
   }
 
   .text_bubble h2 {
