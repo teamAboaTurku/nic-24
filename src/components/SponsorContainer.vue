@@ -4,7 +4,11 @@
         <div class="sponsor-list">
             <div class="sponsor">
                 <img src="https://teamaboaturku.github.io/nic24_photos/images/a-logo.png" alt="Åbo Akademi logo">
+            </div>
+            <div class="sponsor">
                 <img src="https://teamaboaturku.github.io/nic24_photos/images/loimu-logo.png" alt="Loimu logo">
+            </div>
+            <div class="sponsor">
                 <img src="https://teamaboaturku.github.io/nic24_photos/images/elovena-logo.png" alt="Elovena logo">
             </div>
         </div>
