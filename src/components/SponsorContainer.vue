@@ -3,7 +3,9 @@
         <h3>We would like to thank our sponsors:</h3>
         <div class="sponsor-list">
             <div class="sponsor">
-                <img src="https://static.igem.wiki/teams/4831/wiki/logos/a-logo.png" alt="Åbo Akademi logo">
+                <img src="https://teamaboaturku.github.io/nic24_photos/images/a-logo.png" alt="Åbo Akademi logo">
+                <img src="https://teamaboaturku.github.io/nic24_photos/images/loimu-logo.png" alt="Loimu logo">
+                <img src="https://teamaboaturku.github.io/nic24_photos/images/elovena-logo.png" alt="Elovena logo">
             </div>
         </div>
     </div>
