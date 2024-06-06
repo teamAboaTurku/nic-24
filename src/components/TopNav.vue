@@ -2,7 +2,7 @@
   <div>
     <nav class="topnav">
       <div class="topnavLogo">
-        <img :src="require('@/assets/photos/nic_logo.png')" alt="Logo" id="Logo">
+        <img src="https://teamaboaturku.github.io/nic24_photos/images/nic_logo.png" alt="Logo" id="Logo">
       </div>
       <button class="navbar-toggler" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>

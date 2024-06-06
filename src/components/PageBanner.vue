@@ -21,30 +21,26 @@ export default {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: var(--lightBlue);
 }
 
 .home-banner {
-    background-image: url('@/assets/photos/turku.png');
-    background-color: var(--lightBlue);
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/turku.png');
 }
 
 .contacts-banner {
-    background-image: url('@/assets/photos/contact.png');
-    background-color: var(--lightBlue);
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/contact.png');
 }
 
 .map-banner {
-    background-image: url('@/assets/photos/map.png');
-    background-color: var(--lightBlue);
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/map.png');
 }
 
 .timetable-banner {
-    background-image: url('@/assets/photos/timetable.png');
-    background-color: var(--lightBlue);
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/timetable.png');
 }
 
 .committee-banner {
-    background-image: url('@/assets/photos/committee.png');
-    background-color: var(--lightBlue);
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/committee.png');
 }
 </style>
