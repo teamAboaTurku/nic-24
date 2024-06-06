@@ -3,13 +3,19 @@
         <h3>We would like to thank our sponsors:</h3>
         <div class="sponsor-list">
             <div class="sponsor">
-                <img src="https://teamaboaturku.github.io/nic24_photos/images/a-logo.png" alt="Åbo Akademi logo">
+                <a href="https://www.abo.fi/en/">
+                    <img src="https://teamaboaturku.github.io/nic24_photos/images/a-logo.png" alt="Åbo Akademi logo">
+                </a>
             </div>
             <div class="sponsor">
-                <img src="https://teamaboaturku.github.io/nic24_photos/images/loimu-logo.png" alt="Loimu logo">
+                <a href="https://www.loimu.fi/">
+                    <img src="https://teamaboaturku.github.io/nic24_photos/images/loimu-logo.png" alt="Loimu logo">
+                </a>
             </div>
             <div class="sponsor">
-                <img src="https://teamaboaturku.github.io/nic24_photos/images/elovena-logo.png" alt="Elovena logo">
+                <a href="https://elovena.com/fi">
+                    <img src="https://teamaboaturku.github.io/nic24_photos/images/elovena-logo.png" alt="Elovena logo">
+                </a>
             </div>
         </div>
     </div>
