@@ -14,7 +14,7 @@
         <router-link to="/timetable" class="nav-item" active-class="active">Timetable</router-link>
         <router-link to="/map" class="nav-item" active-class="active">Map</router-link>
         <router-link to="/committee" class="nav-item" active-class="active">Committee</router-link>
-        <router-link to="/contacts" class="nav-item" active-class="active">Contact us</router-link>
+        <router-link to="/contacts" class="nav-item" active-class="active">Contacts</router-link>
       </div>
     </nav>
     <div class="sidebar" :class="{ 'sidebar-open': isSidebarOpen }">
@@ -23,7 +23,7 @@
       <router-link to="/timetable" class="nav-item" active-class="active" @click="toggleSidebar">Timetable</router-link>
       <router-link to="/map" class="nav-item" active-class="active" @click="toggleSidebar">Map</router-link>
       <router-link to="/committee" class="nav-item" active-class="active" @click="toggleSidebar">Committee</router-link>
-      <router-link to="/contacts" class="nav-item" active-class="active" @click="toggleSidebar">Contact us</router-link>
+      <router-link to="/contacts" class="nav-item" active-class="active" @click="toggleSidebar">Contacts</router-link>
     </div>
     <div class="overlay" v-if="isSidebarOpen" @click="toggleSidebar"></div>
   </div>
