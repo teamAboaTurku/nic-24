@@ -11,6 +11,7 @@
         <router-link to="/" exact class="nav-item" active-class="active">Home</router-link>
         <router-link to="/timetable" class="nav-item" active-class="active">Timetable</router-link>
         <router-link to="/map" class="nav-item" active-class="active">Map</router-link>
+        <router-link to="/conference" class="nav-item" active-class="active">Conference</router-link>
         <router-link to="/committee" class="nav-item" active-class="active">Committee</router-link>
         <router-link to="/contacts" class="nav-item" active-class="active">Contact us</router-link>
       </div>
@@ -20,6 +21,7 @@
       <router-link to="/" exact class="nav-item" active-class="active" @click="toggleSidebar">Home</router-link>
       <router-link to="/timetable" class="nav-item" active-class="active" @click="toggleSidebar">Timetable</router-link>
       <router-link to="/map" class="nav-item" active-class="active" @click="toggleSidebar">Map</router-link>
+      <router-link to="/conference" class="nav-item" active-class="active" @click="toggleSidebar">Conference</router-link>
       <router-link to="/committee" class="nav-item" active-class="active" @click="toggleSidebar">Committee</router-link>
       <router-link to="/contacts" class="nav-item" active-class="active" @click="toggleSidebar">Contact us</router-link>
     </div>
@@ -141,7 +143,7 @@ export default {
   margin-left: 30px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1024px) {
   .topnavLinks {
     gap: 0px;
   }
