@@ -34,6 +34,8 @@
             workshops, networking opportunities, and a gala dinner. Participants will also practice their presentation
             skills and receive valuable feedback on their projects. Enjoy the endless summer nights in Finland’s oldest
             city while engaging in a collaborative and innovative environment.
+            <br><br>
+            More on the conference events <router-link to="/conference">here!</router-link>
           </p>
         </div>
       </template>
