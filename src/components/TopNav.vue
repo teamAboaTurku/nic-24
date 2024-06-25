@@ -2,7 +2,9 @@
   <div>
     <nav class="topnav">
       <div class="topnavLogo">
-        <img src="https://teamaboaturku.github.io/nic24_photos/images/nic_logo.png" alt="Logo" id="Logo">
+        <router-link to="/" exact active-class="active">
+          <img src="https://teamaboaturku.github.io/nic24_photos/images/nic_logo.png" alt="Logo" id="Logo">
+        </router-link>
       </div>
       <button class="navbar-toggler" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
