@@ -9,6 +9,7 @@
   
   const places = [
     { coords: [60.45452362333769, 22.28447076779865], name: 'University of Turku', des: 'Our beautiful campus.' },
+    { coords: [60.454877, 22.282245], name: 'Åbo Akademi Aurum', des: 'This is where our main events happen.'},
     { coords: [60.45175556124348, 22.266711651001586], name: 'City center', des: 'Market square.' },
     { coords: [60.45088487114809, 22.26861236235508], name: 'Scandic Hamburger Börs', des: 'Academic dinner party!' },
     { coords: [60.45248173770098, 22.278357641222645], name: 'Turku Cathedral', des: 'Some old church that Turku is famous for.' }
