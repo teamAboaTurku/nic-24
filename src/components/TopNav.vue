@@ -2,7 +2,9 @@
   <div>
     <nav class="topnav">
       <div class="topnavLogo">
-        <img src="https://teamaboaturku.github.io/nic24_photos/images/nic_logo.png" alt="Logo" id="Logo">
+        <router-link to="/" exact active-class="active">
+          <img src="https://teamaboaturku.github.io/nic24_photos/images/nic_logo.png" alt="Logo" id="Logo">
+        </router-link>
       </div>
       <button class="navbar-toggler" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
@@ -13,7 +15,7 @@
         <router-link to="/map" class="nav-item" active-class="active">Map</router-link>
         <router-link to="/conference" class="nav-item" active-class="active">Conference</router-link>
         <router-link to="/committee" class="nav-item" active-class="active">Committee</router-link>
-        <router-link to="/contacts" class="nav-item" active-class="active">Contact us</router-link>
+        <router-link to="/contacts" class="nav-item" active-class="active">Contacts</router-link>
       </div>
     </nav>
     <div class="sidebar" :class="{ 'sidebar-open': isSidebarOpen }">
@@ -23,7 +25,7 @@
       <router-link to="/map" class="nav-item" active-class="active" @click="toggleSidebar">Map</router-link>
       <router-link to="/conference" class="nav-item" active-class="active" @click="toggleSidebar">Conference</router-link>
       <router-link to="/committee" class="nav-item" active-class="active" @click="toggleSidebar">Committee</router-link>
-      <router-link to="/contacts" class="nav-item" active-class="active" @click="toggleSidebar">Contact us</router-link>
+      <router-link to="/contacts" class="nav-item" active-class="active" @click="toggleSidebar">Contacts</router-link>
     </div>
     <div class="overlay" v-if="isSidebarOpen" @click="toggleSidebar"></div>
   </div>
