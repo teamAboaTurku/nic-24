@@ -40,6 +40,10 @@ export default {
     background-image: url('https://teamaboaturku.github.io/nic24_photos/images/timetable.png');
 }
 
+.conference-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/conference.png');
+}
+
 .committee-banner {
     background-image: url('https://teamaboaturku.github.io/nic24_photos/images/committee.png');
 }
