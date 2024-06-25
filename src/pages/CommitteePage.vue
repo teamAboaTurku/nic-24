@@ -1,10 +1,11 @@
 <template>
     <h1>NiC 2024 Committee</h1>
-    <h3>The powerhouse team of the NiC committee, orchestrating every detail for the upcoming Nordic iGEM Conference.</h3>
+    <h3>The powerhouse team of the NiC committee, orchestrating every detail for the upcoming Nordic iGEM Conference.
+    </h3>
     <h3 style="color: var(--red);">Note: This site is under construction!</h3>
     <div class="grid-container">
         <PhotoCard v-for="(item, index) in items" :key="index" :name="item.name" :year="item.year" :imgUrl="item.imgUrl"
-            :class="`grid-item`" />
+            :favorite="item.favorite" :class="`grid-item`" />
     </div>
 </template>
 
@@ -18,13 +19,13 @@ export default {
     data() {
         return {
             items: [
-                { name: 'Mariel', year: '2023', imgUrl: 'map.png' },
-                { name: 'Sara', year: '2023', imgUrl: 'map.png' },
-                { name: 'Minttu', year: '2023', imgUrl: 'map.png' },
-                { name: 'Ville', year: '2023', imgUrl: 'map.png' },
-                { name: 'Ofelia', year: '2024', imgUrl: 'map.png' },
-                { name: 'Elsa', year: '2023', imgUrl: 'map.png' },
-                { name: 'Jesse', year: '2023', imgUrl: 'map.png' }
+                { name: 'Mariel', year: '2023', imgUrl: 'mariel.png', favorite: 'My favourite colour is lavender.' },
+                { name: 'Sara', year: '2023', imgUrl: 'sara.jpg', favorite: 'My favourite snack is the proper old finnish nakki.' },
+                { name: 'Minttu', year: '2023', imgUrl: 'minttu.jpg', favorite: '' },
+                { name: 'Ville', year: '2023', imgUrl: 'ville.jpeg', favorite: 'I like sheep, they are soft :)' },
+                { name: 'Ofelia', year: '2024', imgUrl: 'ofelia.jpg', favorite: 'I love house plants even though I don’t have a green thumb at all.' },
+                { name: 'Elsa', year: '2023', imgUrl: 'elsa.jpg', favorite: 'I like the sound that comes when animals eat hay.' },
+                { name: 'Jesse', year: '2023', imgUrl: 'jesse.jpeg', favorite: 'I like collecting rocks.' }
             ]
         };
     }
@@ -70,7 +71,7 @@ export default {
     align-items: center;
 }
 
-@media only screen and (min-width: 430px) and (max-width: 700px) {
+@media only screen and (min-width: 425px) and (max-width: 700px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }

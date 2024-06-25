@@ -3,6 +3,7 @@
         <img :src="imageUrl" alt="Photo" />
         <h2>{{ name }}</h2>
         <h3>Aboa {{ year }}</h3>
+        <p>{{ favorite }}</p>
     </div>
 </template>
 
@@ -22,6 +23,10 @@ export default {
         imgUrl: {
             type: String,
             required: true
+        },
+        favorite: {
+            type: String,
+            required: true
         }
     },
     computed: {
@@ -36,7 +41,7 @@ export default {
 
 <style>
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     border: 1px solid var(--green);
     width: 200px;
     height: 300px;
@@ -44,12 +49,12 @@ export default {
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(222, 223, 252, 0.4);
+    border-radius: 10px;
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    height: 150px;
     border-bottom: 1px solid var(--green);
     background-color: var(--lightBlue);
 }
@@ -64,6 +69,13 @@ export default {
 
 .card h2,
 .card h3 {
-    margin: 10px 0;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px;
+    margin-bottom: 0px;
 }
 </style>
