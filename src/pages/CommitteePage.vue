@@ -2,7 +2,6 @@
     <h1>NiC 2024 Committee</h1>
     <h3>The powerhouse team of the NiC committee, orchestrating every detail for the upcoming Nordic iGEM Conference.
     </h3>
-    <h3 style="color: var(--red);">Note: This site is under construction!</h3>
     <div class="grid-container">
         <PhotoCard v-for="(item, index) in items" :key="index" :name="item.name" :year="item.year" :imgUrl="item.imgUrl"
             :favorite="item.favorite" :class="`grid-item`" />
@@ -37,6 +36,7 @@ export default {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
+    margin: 50px 0 50px 0;
 }
 
 .grid-item:nth-child(1),
