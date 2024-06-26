@@ -5,9 +5,16 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-        // Check the URL path and redirect to the main index.html, preserving the path
-        var path = location.pathname;
-        window.location.href = '/nic_24/index.html' + path;
+        // Function to check if the path is already attempting to load index.html
+        function shouldRedirect() {
+            return !/\/index\.html$/.test(window.location.pathname);
+        }
+
+        // Redirect to index.html only if not already loading it
+        if (shouldRedirect()) {
+            var path = location.pathname;
+            window.location.href = '/nic_24/index.html' + path;
+        }
     </script>
 </head>
 
