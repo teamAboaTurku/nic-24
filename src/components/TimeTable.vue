@@ -1,5 +1,5 @@
 <template>
-    <h3 style="text-align: center;">Note that these times are in local time.</h3>
+    <h3 style="text-align: center;">These times are in local time.</h3>
     <table>
         <tr>
             <th id="time">Time</th>
@@ -10,38 +10,38 @@
         <tr>
             <td id="time">10.00</td>
             <td></td>
-            <td></td>
+            <td>Welcoming words + Presentations</td>
             <td></td>
         </tr>
         <tr>
             <td id="time">11.00</td>
             <td></td>
-            <td>Teams preparing for their presentation</td>
-            <td>Presentation</td>
+            <td>Presentations + short break</td>
+            <td>Presentation by Brinter AM Technologies Ltd</td>
         </tr>
         <tr>
             <td id="time">12.00</td>
             <td>Welcoming ceremony</td>
-            <td>Lunch</td>
+            <td>Presentations + lunch at 12.30</td>
             <td>Lunch</td>
         </tr>
         <tr>
             <td id="time">13.00 </td>
-            <td>Trade show / lunch</td>
-            <td>Team presentations</td>
+            <td>Kelly’s small introduction + Postersession</td>
+            <td>Lunch ends 13.30 + presentations</td>
             <td>Award ceremony</td>
         </tr>
         <tr>
             <td id="time">14.00</td>
-            <td>Trade show / lunch</td>
+            <td>Postersession / Kelly’s workshop</td>
             <td>Team presentations</td>
-            <td>Award ceremony</td>
+            <td>Saying goodbye</td>
         </tr>
         <tr>
             <td id="time">15.00</td>
-            <td>Trade show / workshop</td>
-            <td>Team presentations</td>
-            <td>Saying goodbye</td>
+            <td>Postersession / Kelly’s workshop</td>
+            <td>Preparing for the evening</td>
+            <td></td>
         </tr>
         <tr>
             <td id="time">16.00</td>
@@ -69,7 +69,7 @@
         </tr>
         <tr>
             <td id="time">20.00</td>
-            <td>City tour</td>
+            <td>City tour / hangout</td>
             <td>Academic dinner party</td>
             <td></td>
         </tr>
