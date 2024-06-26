@@ -23,4 +23,28 @@ export default {
     background-repeat: no-repeat;
     background-color: var(--blue);
 }
+
+.home-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/turku.png');
+}
+
+.contacts-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/contacts.png');
+}
+
+.map-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/map.png');
+}
+
+.timetable-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/timetable.png');
+}
+
+.conference-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/conference.png');
+}
+
+.committee-banner {
+    background-image: url('https://teamaboaturku.github.io/nic24_photos/images/committee.png');
+}
 </style>
