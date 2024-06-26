@@ -59,6 +59,7 @@
             Prepare your presentations thoughtfully and make sure to adhere to the guidelines to showcase your hard work
             effectively. Good luck to all teams!
         </p>
+        <PresentationTable />
 
         <h3>Academic dinner party</h3>
         <p>
@@ -107,21 +108,25 @@
 </template>
 
 <script>
+import PresentationTable from '../components/PresentationTable.vue'
+
 export default {
-    name: 'ConferencePage'
+    name: 'ConferencePage',
+    components: {
+        PresentationTable
+    }
 }
 </script>
 
 <style scoped>
 .text-box {
-    margin: 10px 50px;
-    text-align: justify;
+    margin: 10px auto 50px auto;
     min-width: 250px;
     max-width: 600px;
 }
 
-p {
-    font-size: 16px;
+.text-box p {
+    text-align: justify;
 }
 
 h3 {
