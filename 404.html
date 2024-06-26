@@ -5,9 +5,15 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-        // Redirect to 'index.html' only if the current path isn't the root
-        if (!window.location.pathname.endsWith('/nic_24/')) {
+        // This script ensures that all paths are redirected to 'index.html'
+        // but the browser's path remains unchanged for Vue Router to handle.
+        if (window.location.pathname.startsWith('/nic_24/')) {
+            // Redirect to 'index.html' at the base path, while keeping the browser's URL unchanged.
+            // Here 'index.html' will serve as the entry point for all routes managed by Vue Router.
             window.location.href = '/nic_24/index.html' + window.location.search + window.location.hash;
+        } else {
+            // Optionally handle any incorrect paths not starting with '/nic_24/'
+            window.location.href = '/nic_24/';
         }
     </script>
 </head>
