@@ -41,21 +41,19 @@ export default {
 
 <style>
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-    border: 1px solid var(--green);
+    box-shadow: 4px 4px var(--blue);
+    border: 1px solid var(--darkBlue);
     width: 200px;
     height: 300px;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: rgba(222, 223, 252, 0.4);
-    border-radius: 10px;
+    background-color: var(--lightBlue);
 }
 
 .card img {
     height: 150px;
-    border-bottom: 1px solid var(--green);
     background-color: var(--lightBlue);
 }
 

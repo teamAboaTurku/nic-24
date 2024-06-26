@@ -2,9 +2,9 @@
   <div class="page">
     <h1>Map of important places</h1>
     <div class="reference">
-      <p><i class="fas fa-syringe" style="color:var(--red); font-size:24px;"></i> - Conference</p>
-      <p><i class="material-icons" style="color:var(--green); font-size:24px;">restaurant</i> - Food</p>
-      <p><i class="material-icons" style="color:var(--blue); font-size:24px;">hotel</i> - Hotels</p>
+      <p><i class="fas fa-syringe" style="color:red; font-size:24px;"></i> - Conference</p>
+      <p><i class="material-icons" style="color:green; font-size:24px;">restaurant</i> - Food</p>
+      <p><i class="material-icons" style="color:blue; font-size:24px;">hotel</i> - Hotels</p>
     </div>
     <MapComponent />
   </div>
@@ -25,8 +25,9 @@ export default {
 .reference p {
   display: flex;
   align-items: center;
-  width: 150px;
+  width: 200px;
   margin: auto;
+  gap: 20px;
 }
 
 .icon {

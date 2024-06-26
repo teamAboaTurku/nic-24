@@ -1,31 +1,15 @@
 /* Colors */
 
-/*
-COLOR CODES:
-Red - #9c2135
-LightRed - #e9d1d5
-Blue - #282c97
-LightBlue - #dedffc
-Green - #006a44
-LightGreen - #c9dcd5
-*/
-
 :root {
-    --red: #9c2135;
-    --lightRed: #e9d1d5;
-    --blue: #282c97;
-    --lightBlue: #dedffc;
-    --green: #006a44;
-    --lightGreen: #c9dcd5;
+    --blue: #67a4b4;
+    --darkBlue: #1f4c5e;
+    --lightBlue: #e1f7f6;
     --text: black;
     --text-inverted: white;
-
-    /* Fonts */
-    --font: sans-serif;
 }
 
 
-body{
+body {
     margin: 0;
     min-height: 100vh;
 }
@@ -38,12 +22,16 @@ body{
 
 .page {
     padding: 10px;
-    background-color: var(--lightGreen);
+    background-color: var(--lightBlue);
     flex: 1;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3,
+p {
     text-align: center;
+    font-family: Cambria;
 }
 
 h1 {
@@ -51,11 +39,11 @@ h1 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 footer {
-    background-color: var(--green);
+    background-color: var(--darkBlue);
     min-height: 100px;
     padding: 20px;
     padding-top: 50px;

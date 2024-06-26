@@ -1,10 +1,10 @@
 <template>
     <div class="flagLine">
-        <div class="flag" id="fin"></div>
-        <div class="flag" id="est"></div>
         <div class="flag" id="lat"></div>
         <div class="flag" id="lit"></div>
+        <div class="flag" id="fin"></div>
         <div class="flag" id="den"></div>
+        <div class="flag" id="est"></div>
         <div class="flag" id="swe"></div>
         <div class="flag" id="nor"></div>
     </div>
@@ -29,30 +29,30 @@ export default {
 }
 
 #fin {
-    background: linear-gradient(to right, blue 0%, blue 33.33%, white 33.33%, white 66.67%, blue 66.67%, blue 100%);
+    background: linear-gradient(to right, white 0%, white 40%, blue 40%, blue 60%, white 60%, white 100%);
 }
 
 #est {
-    background: linear-gradient(to right, black 0%, black 33.33%, blue 33.33%, blue 66.67%, white 66.67%, white 100%);
+    background: linear-gradient(to right, blue 0%, blue 33.33%, black 33.33%, black 66.67%, white 66.67%, white 100%);
 }
 
 #lat {
-    background: linear-gradient(to right, var(--red) 0%, var(--red) 33.33%, white 33.33%, white 66.67%, var(--red) 66.67%, var(--red) 100%);
+    background: linear-gradient(to right, rgb(187, 8, 8) 0%, rgb(187, 8, 8) 40%, white 40%, white 60%, rgb(187, 8, 8) 60%, rgb(187, 8, 8) 100%);
 }
 
 #lit {
-    background: linear-gradient(to right, yellow 0%, yellow 33.33%, green 33.33%, green 66.67%, var(--red) 66.67%, var(--red) 100%);
+    background: linear-gradient(to right, yellow 0%, yellow 33.33%, green 33.33%, green 66.67%, rgb(187, 8, 8) 66.67%, rgb(187, 8, 8) 100%);
 }
 #den {
-    background: linear-gradient(to right, red 0%, red 33.33%, white 33.33%, white 66.67%, red 66.67%, red 100%);
+    background: linear-gradient(to right, red 0%, red 40%, white 40%, white 60%, red 60%, red 100%);
 }
 
 #swe {
-    background: linear-gradient(to right, blue 0%, blue 33.33%, yellow 33.33%, yellow 66.67%, blue 66.67%, blue 100%);
+    background: linear-gradient(to right, blue 0%, blue 40%, yellow 40%, yellow 60%, blue 60%, blue 100%);
 }
 
 #nor {
-    background: linear-gradient(to right, red 0%, red 20%,white 20%, white 40%, blue 40%, blue 60%, white 60%, white 80%, red 80%, red 100%);
+    background: linear-gradient(to right, red 0%, red 30%,white 30%, white 40%, blue 40%, blue 60%, white 60%, white 70%, red 70%, red 100%);
 }
 
 </style>

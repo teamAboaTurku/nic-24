@@ -46,19 +46,19 @@
   
       // Define custom icons
       const mapPin = L.divIcon({
-        html: '<i class="fas fa-syringe" style="color:var(--red); font-size:24px;"></i>',
+        html: '<i class="fas fa-syringe" style="color:red; font-size:24px;"></i>',
         iconSize: [24, 24],
         className: 'custom-div-icon'
       });
   
       const foodPin = L.divIcon({
-        html: '<i class="material-icons" style="color:var(--green); font-size:24px;">restaurant</i>',
+        html: '<i class="material-icons" style="color:green; font-size:24px;">restaurant</i>',
         iconSize: [24, 24],
         className: 'custom-div-icon'
       });
   
       const hotelPin = L.divIcon({
-        html: '<i class="material-icons" style="color:var(--blue); font-size:24px;">hotel</i>',
+        html: '<i class="material-icons" style="color:blue; font-size:24px;">hotel</i>',
         iconSize: [24, 24],
         className: 'custom-div-icon'
       });
@@ -88,7 +88,7 @@
     width: 80%;
     height: 400px;
     margin: 50px auto;
-    border: 3px solid var(--green);
+    border: 3px solid var(--darkBlue);
   }
   
   .custom-div-icon {

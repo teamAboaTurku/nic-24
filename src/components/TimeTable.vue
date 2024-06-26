@@ -84,8 +84,8 @@ export default {
 
 <style>
 table {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid var(--green);
+    background-color: var(--blue);
+    border: 1px solid var(--darkBlue);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 50px;
@@ -95,7 +95,8 @@ table {
 
 td,
 th {
-    border: 1px solid var(--green);
+    border: 1px solid var(--darkBlue);
+    background-color: var(--lightBlue);
     padding: 5px;
     width: 30%;
 }

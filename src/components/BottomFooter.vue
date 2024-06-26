@@ -20,6 +20,6 @@ export default {
 
 <style>
 footer div.someBox a.some_icon{
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--lightBlue);
 }
 </style>

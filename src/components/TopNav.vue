@@ -52,7 +52,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--green);
+  background-color: var(--darkBlue);
   padding: 10px;
   color: white;
 }
@@ -79,7 +79,7 @@ export default {
 
 .nav-item.active,
 .nav-item:hover {
-  background-color: var(--lightGreen);
+  background-color: var(--lightBlue);
   color: black;
   border-radius: 10px;
 }
@@ -90,7 +90,7 @@ export default {
   right: 0;
   height: 100%;
   width: 250px;
-  background-color: var(--green);
+  background-color: var(--darkBlue);
   padding: 10px;
   padding-top: 60px;
   transform: translateX(100%);
