@@ -81,7 +81,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ccircle%20cx='50'%20cy='50'%20r='45'%20fill='none'%20stroke='white'%20stroke-width='1.5'%20stroke-dasharray='2%204'%20stroke-linecap='round'%20opacity='0.5'/%3E%3C/svg%3E") no-repeat center center;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ccircle%20cx='50'%20cy='50'%20r='45'%20fill='none'%20stroke='%23969f98'%20stroke-width='1.5'%20stroke-dasharray='2%204'%20stroke-linecap='round'%20opacity='0.2'/%3E%3C/svg%3E") no-repeat center center;
   background-size: cover;
   overflow: hidden;
   /* Ensure content doesn't overflow the circle */
