@@ -5,7 +5,7 @@
         <p>
             <span style="font-weight: bold;">Date and Time</span>
             <br>
-            The NiC 2024 poster session will be held on Friday, July 26th, from 13:30 to 15:45 in the Argentum lobby,
+            The NiC 2024 poster session will be held on Friday, July 26th, from 13:45 to 15:45 in the Argentum lobby,
             right next to the Argentum auditorium, in the Aurum Building.
             <br><br>
             <span style="font-weight: bold;">Poster Submission</span>
@@ -98,9 +98,17 @@
             <br><br>
             <span style="font-weight: bold;">Menu</span>
             <br>
-            Appetizer: Creamy Forest Mushroom Soup
-            Main Course: Lightly Smoked Salmon with Hollandaise Sauce and Dill Potatoes
+            Appetizer: Creamy Forest Mushroom Soup<br>
+            Main Course: Lightly Smoked Salmon with Hollandaise Sauce and Dill Potatoes<br>
             Dessert: Curd Pannacotta with Berries
+            <br><br>
+            <span style="font-weight: bold;">After party at Dynamo</span>
+            <br>
+            The festivities don't end with the dinner. Starting at 22:00, the after party will take place at Dynamo,
+            located at Linnankatu 7, 20100. From 22:00 to 24:00, guests can take advantage of happy hour, featuring a
+            variety of discounted drinks. Entrance to the after party is free, though there might be a small fee for the
+            cloakroom service. Dynamo provides a lively atmosphere with a mix of indie and electronic music, making it
+            the perfect place to continue the evening's celebrations.
             <br><br>
             We look forward to welcoming you to an evening of fine dining and engaging conversation!
         </p>
