@@ -29,48 +29,54 @@
             <td id="time">13.00 </td>
             <td>Kelly’s small introduction + Postersession</td>
             <td>Lunch ends 13.30 + presentations</td>
-            <td>Award ceremony</td>
+            <td>Presentation by Euro-BioImaging</td>
         </tr>
         <tr>
             <td id="time">14.00</td>
             <td>Postersession / Kelly’s workshop</td>
             <td>Team presentations</td>
-            <td>Saying goodbye</td>
+            <td>Award ceremony</td>
         </tr>
         <tr>
             <td id="time">15.00</td>
             <td>Postersession / Kelly’s workshop</td>
             <td>Preparing for the evening</td>
-            <td></td>
+            <td>Saying goodbye</td>
         </tr>
         <tr>
             <td id="time">16.00</td>
             <td>Presentation by Synbio Powerhouse</td>
-            <td>Preparing for the evening</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td id="time">17.00</td>
-            <td>Preparing for the evening</td>
-            <td>Preparing for the evening</td>
+            <td></td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td id="time">18.00</td>
-            <td>Dinner</td>
-            <td>Academic dinner party</td>
+            <td></td>
+            <td>Academic dinner party at Scandic Börs</td>
             <td></td>
         </tr>
         <tr>
             <td id="time">19.00</td>
             <td>City tour</td>
-            <td>Academic dinner party</td>
+            <td>Academic dinner party at Scandic Börs</td>
             <td></td>
         </tr>
         <tr>
             <td id="time">20.00</td>
             <td>City tour / hangout</td>
-            <td>Academic dinner party</td>
+            <td>Academic dinner party at Scandic Börs</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="time">22.00</td>
+            <td></td>
+            <td>After party at Dynamo</td>
             <td></td>
         </tr>
     </table>
@@ -108,11 +114,14 @@ th {
 
 @media only screen and (max-width: 500px) {
 
-    table, th, td {
+    table,
+    th,
+    td {
         border-collapse: collapse;
     }
 
-    td, th {
+    td,
+    th {
         padding: 1px;
         padding-top: 5px;
         padding-bottom: 5px;
