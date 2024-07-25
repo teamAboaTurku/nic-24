@@ -6,8 +6,15 @@
         <SomeBox />
         <hr style="background-color: var(--blue); height: 5px;">
         <h1>During event</h1>
-        <p>Details of the main contact person for the event will be posted here closer to the event date. Partisipants
-            can also contact organizers through telegram.</p>
+        <p style="font-weight: bold;">Main contact person</p>
+        <p>Elsa Lehtilä
+            <br>Phone number: +358 400375909
+            <br>Telegram: @Metsittynyt
+        </p>
+        <p style="font-weight: bold;">Safety officer</p>
+        <p>Ofelia Sarlund
+            <br>Phone number: +358 456567922
+        </p>
         <p>In case of an emergency, the local emergency number is <span style="font-weight: bold;">112</span>.</p>
         <p>The local medical help line is <span style="font-weight: bold;">116117</span>.
             Emergency services are open 24/7 and their contact info and instructions can be read <a
